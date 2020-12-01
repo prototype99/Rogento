@@ -3,11 +3,11 @@
 # $Header: $
 
 EAPI=5
-inherit eutils  gnome2-utils
+inherit eutils gnome2-utils
 
 DESCRIPTION="Plugin for Thunar that adds context-menu items for Dropbox"
-HOMEPAGE="http://www.softwarebakery.com/maato/thunar-dropbox.html"
-SRC_URI="http://www.softwarebakery.com/maato/files/${PN}/${P}.tar.bz2"
+HOMEPAGE="https://github.com/Maato/${PN}/"
+SRC_URI="${HOMEPAGE}archive/0.2.1.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
