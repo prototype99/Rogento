@@ -6,7 +6,7 @@ inherit xfconf
 
 DESCRIPTION="A thumbnail service for the filemanager of Xfce desktop environment"
 HOMEPAGE="http://www.xfce.org/projects/thunar/"
-SRC_URI="mirror://xfce/src/apps/${PN}/${PV%.*}/${P}.tar.bz2"
+SRC_URI="https://archive.xfce.org/src/xfce/${PN}/${PV%.*}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
