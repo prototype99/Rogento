@@ -7,7 +7,7 @@ inherit eutils
 
 DESCRIPTION="Compiz Configuration System"
 HOMEPAGE="http://www.compiz.org/"
-SRC_URI="http://releases.compiz.org/${PV}/${P}.tar.bz2"
+SRC_URI="http://releases.compiz.org/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
