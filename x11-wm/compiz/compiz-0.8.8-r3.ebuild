@@ -1,14 +1,13 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-wm/compiz/compiz-0.8.8-r3.ebuild,v 1.2 2014/12/17 18:37:14 kensington Exp $
 
 EAPI=5
 
 inherit autotools eutils gnome2-utils
 
 DESCRIPTION="OpenGL window and compositing manager"
-HOMEPAGE="http://www.compiz.org/"
-SRC_URI="http://releases.compiz.org/${PV}/${P}.tar.bz2"
+HOMEPAGE="http://www.${PN}.org/"
+SRC_URI="https://github.com/${PN}-reloaded/${PN}/archive/${P}.tar.gz"
 
 LICENSE="GPL-2 LGPL-2.1 MIT"
 SLOT="0"
