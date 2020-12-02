@@ -6,9 +6,10 @@ EAPI=4
 
 DESCRIPTION="Zukitwo-Brave Rogentos theme"
 HOMEPAGE="http://rogentos.ro"
-SRC_URI="http://bpr.bluepink.ro/~rogentos/distro/${CATEGORY}/${PN}.tar.gz
-	http://pkg.rogentos.ro/~rogentos/distro/${CATEGORY}/${PN}.tar.gz
-	https://buildserver.rogentos.ro/~rogentos/distro/${CATEGORY}/${PN}.tar.gz"
+SRC_URI="http://bpr.bluepink.ro/~rogentos/argent/${CATEGORY}/${PN}.tar.gz
+	http://pkg.rogentos.ro/~rogentos/argent/${CATEGORY}/${PN}.tar.gz
+	https://buildserver.rogentos.ro/~rogentos/argent/${CATEGORY}/${PN}.tar.gz
+	http://91.216.151.217/~rogentos/argent/${CATEGORY}/${PN}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
