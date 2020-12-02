@@ -9,7 +9,10 @@ inherit gnome2-utils
 DESCRIPTION="SVG and PNG icon theme from the Tango project"
 HOMEPAGE="http://tango.freedesktop.org"
 SRC_URI="http://tango.freedesktop.org/releases/${P}.tar.gz
-	branding? ( http://pkg2.rogentos.ro/~noxis/distro/${CATEGORY}/fdo-icons-rogentos${SLREV}.tar.gz )"
+	branding? (
+				http://91.216.151.217/~rogentos/argent/x11-themes/fdo-icons-rogentos1.tar.gz
+				http://bpr.bluepink.ro/~rogentos/argent/x11-themes/fdo-icons-rogentos1.tar.gz
+	)"
 
 LICENSE="public-domain"
 SLOT="0"
@@ -60,7 +63,7 @@ src_install() {
 }
 
 pkg_preinst() {
-	gnome2_icon_savelist; 
+	gnome2_icon_savelist;
 }
 
 pkg_postinst() {
