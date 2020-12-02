@@ -1,14 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-wm/awesome/awesome-3.5.6.ebuild,v 1.1 2015/01/11 19:28:57 maksbotan Exp $
 
 EAPI="5"
 CMAKE_MIN_VERSION="2.8"
 inherit cmake-utils eutils
 
 DESCRIPTION="A dynamic floating and tiling window manager"
-HOMEPAGE="http://awesome.naquadah.org/"
-SRC_URI="http://awesome.naquadah.org/download/${P}.tar.xz"
+HOMEPAGE="http://${PN}.naquadah.org/"
+SRC_URI="https://github.com/${PN}WM/${PN}-releases/raw/master/${P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
