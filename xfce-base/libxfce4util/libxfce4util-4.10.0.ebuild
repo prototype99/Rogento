@@ -7,7 +7,7 @@ inherit xfconf
 
 DESCRIPTION="A basic utility library for the Xfce desktop environment"
 HOMEPAGE="http://www.xfce.org/projects/"
-SRC_URI="mirror://xfce/src/xfce/${PN}/${PV%.*}/${P}.tar.bz2"
+SRC_URI="https://archive.xfce.org/src/xfce/${PN}/${PV%.*}/${P}.tar.bz2"
 
 LICENSE="LGPL-2"
 SLOT="0"

@@ -6,7 +6,7 @@ inherit xfconf
 
 DESCRIPTION="Xfce's freedesktop.org specification compatible menu implementation library"
 HOMEPAGE="http://www.xfce.org/projects/libraries/"
-SRC_URI="mirror://xfce/src/libs/${PN}/${PV%.*}/${P}.tar.bz2"
+SRC_URI="https://archive.xfce.org/src/xfce/${PN}/${PV%.*}/${P}.tar.bz2"
 
 LICENSE="LGPL-2 FDL-1.1"
 SLOT="0"
